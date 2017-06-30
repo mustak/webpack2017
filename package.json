@@ -1,0 +1,33 @@
+{
+  "name": "webpack2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:serve": "NODE_ENV=development webpack-dev-server --open",
+    "dev:build": "NODE_ENV=devbuild webpack --progress --watch & serve --open",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "keywords": [],
+  "author": "mustak",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "image-webpack-loader": "^3.3.1",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.3",
+    "pngquant": "^1.3.0",
+    "postcss-loader": "^2.0.6",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "serve": "^6.0.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}

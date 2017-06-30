@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" version="1.1" viewBox="0 0 400 376">
+ <g transform="translate(0 -215.17)">
+  <rect style="fill:#0b0b0b" height="200" width="100" y="391.17" x="150"/>
+  <path style="fill-rule:evenodd" d="m0 215.17 150 150h100l150-150h-100l-50 50-50 50-100-100z"/>
+  <path style="fill-rule:evenodd" d="m280 391.17v200h100v-300z"/>
+  <path style="fill:#020202;fill-rule:evenodd" d="m120 391.17v200h-100v-300z"/>
+ </g>
+</svg>

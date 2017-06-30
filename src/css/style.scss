@@ -1,0 +1,29 @@
+$primary-color: #41196f;
+
+@font-face {
+  font-family: 'sketch';
+  src: url('~fonts/Sketch 3D.woff') format('woff');
+  font-weight: bold;
+  //font-style: normal;
+}
+
+body{
+  background: url('~images/webpack.png') repeat;
+  font-size: 2em;
+  font-weight:bolder;
+  font-family: 'sketch';
+
+  h1{
+    line-height: 2em;
+  }
+}
+.hello {
+  font-family: 'sketch';
+  background-color: $primary-color;
+  color: #fff;
+  padding: 1em;
+  background: linear-gradient(to bottom right, #121212, #93a711);
+}
+img{
+  width:200px;
+}
