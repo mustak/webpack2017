@@ -13,6 +13,12 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
@@ -25,9 +31,24 @@
     "postcss-loader": "^2.0.6",
     "resolve-url-loader": "^2.1.0",
     "sass-loader": "^6.0.6",
-    "serve": "^6.0.0",
+    "serve": "^6.0.1",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
+  },
+  "babel": {
+    "presets": [
+      [ "env", { "modules": false } ],
+      "stage-1",
+      "react"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }

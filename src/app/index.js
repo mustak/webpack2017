@@ -1,13 +1,22 @@
-import _ from 'lodash';
-import '../css/style.scss';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 
-function component() {
-    var element = document.createElement('div');
-
-    element.classList.add('hello');
-    element.innerHTML = _.join(['Hello', 'webpack 3.0'], ' ');
-
-    return element;
+class App extends Component {
+  render() {
+    return (
+      <div style={styles.app}>
+        Welcome to React!
+      </div>
+    )
+  }
 }
 
-document.body.appendChild(component());
+const styles = {
+  app: {
+    paddingTop: 40,
+    textAlign: 'center',
+  },
+}
+
+const root = document.querySelector('#app')
+ReactDOM.render(<App />, root)
